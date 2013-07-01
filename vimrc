@@ -1,12 +1,13 @@
-set nocompatible
+source ~/dotfiles/bundles.vim
+
+filetype plugin indent on     " required!
 set number
 set wildmenu
 set wildmode=full
-set history=200
+set history=5000
 syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
-filetype plugin indent on       " load file type plugins + indentation
 
 "" Whitespace
 set nowrap                      " don't wrap lines

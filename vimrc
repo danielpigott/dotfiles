@@ -1,11 +1,17 @@
 source ~/dotfiles/bundles.vim
 
 filetype plugin indent on     " required!
+set nocompatible
 set number
 set wildmenu
 set wildmode=full
 set history=5000
-syntax enable
+syntax on " Turn on syntax highligthing
+set showmatch  "Show matching bracets when text indicator is over them
+
+:set background=dark
+colorscheme solarized
+
 set encoding=utf-8
 set showcmd                     " display incomplete commands
 
@@ -23,6 +29,3 @@ set smartcase                   " ... unless they contain at least one capital l
 
 
 set t_Co=256
-colorscheme ir_black
-
-:set background=dark

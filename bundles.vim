@@ -5,7 +5,8 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
-filetype plugin indent on
 
 " General enhancements
 Bundle 'tpope/vim-abolish.git'
+Bundle 'derekwyatt/vim-scala'
+Bundle 'altercation/vim-colors-solarized'

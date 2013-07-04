@@ -9,6 +9,7 @@ set history=5000
 syntax on " Turn on syntax highligthing
 set showmatch  "Show matching bracets when text indicator is over them
 
+set t_Co=256
 :set background=dark
 colorscheme solarized
 
@@ -28,4 +29,3 @@ set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
 
-set t_Co=256

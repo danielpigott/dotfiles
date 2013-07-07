@@ -28,4 +28,12 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
+"" Mappings
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+"" Disable arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
 
+runtime macros/matchit.vim

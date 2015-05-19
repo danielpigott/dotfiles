@@ -1,4 +1,4 @@
-source ~/dotfiles/bundles.vim
+source ~/dotfiles/vim/bundles.vim
 
 filetype plugin indent on     " required!
 set nocompatible
